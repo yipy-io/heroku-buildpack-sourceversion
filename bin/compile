@@ -1,6 +1,4 @@
 #!/bin/sh
-
 BUILD_DIR=$1
-
 echo "-----> Writing SOURCE_VERSION ($SOURCE_VERSION) to .source_version"
-echo $SOURCE_VERSION > $BUILD_DIR/.commit_id
+echo $SOURCE_VERSION > $BUILD_DIR/.source_version
