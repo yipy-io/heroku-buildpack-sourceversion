@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ENV_DIR=$3
+
+echo "-----> Exporting SOURCE_VERSION ($SOURCE_VERSION)"
+echo "       ENV_DIR: $ENV_DIR"
