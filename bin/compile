@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ENV_DIR=$3
+BUILD_DIR=$1
 
-echo "-----> Exporting SOURCE_VERSION ($SOURCE_VERSION)"
-echo "       ENV_DIR: $ENV_DIR"
+echo "-----> Writing SOURCE_VERSION ($SOURCE_VERSION) to .source_version"
+echo $SOURCE_VERSION > $BUILD_DIR/.commit_id
